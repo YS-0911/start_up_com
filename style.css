@@ -1,0 +1,27 @@
+* {padding: 0; margin: 0; color: black; text-decoration: none; list-style: none;}
+body {width: 1280px; margin: 0 auto; background-color: #fff;}
+
+/* 헤더 > 로고 - 검색바 - 로그인 */
+header {width: 1280px; height: 80px; display: flex;}
+
+.logo {line-height: 80px;}
+.logo img {height: 50px; margin: 15px 0 15px 30px;}
+
+.search {width: 900px; line-height: 80px;}
+.search input {width: 400px; height: 37px; margin: 10px 0 0 180px; padding: 0 15px; border: 1px solid lightblue; border-radius: 20px; font-size: 16px; bottom: 15px;}
+.search input:focus {outline: 1.8px solid #1c5dff; color: black;}
+.search button {width: 80px; height: 40px; margin-left: 10px; border-radius: 30px; background-color: #1c5dff; border: none; color: #fff; font-size: 16px;}
+.search button:hover {cursor: pointer; background-color:lightblue; scale: 0.95; color: #1c5dff; font-weight: bold;}
+
+.member_login {width: 200px; display: flex; align-items: end;}
+.member_login a {text-align: center; line-height: 30px; margin: 3px 0 0 10px; border-radius: 10px;}
+.member_login a:hover {font-weight: bold; color: #1c5dff;}
+
+/* 메인 > 좌측 네비바 - 본문 - 우측 정보 */
+hr {margin-bottom: 20px;}
+main {display: flex; float: left;}
+nav {width: 200px;}
+section {width: 800px;}
+aside {width: 200px;}
+
+/* 푸터 */
